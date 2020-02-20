@@ -64,7 +64,7 @@ void my_task(istream &ist) {
     cin >> k;
 
     if (k > n || k < 1) {
-        cerr << "Error, " << k << " row don't exist" << endl;
+        cerr << "Error, " << k << " row doesn't exist" << endl;
         exit(0);
     }
 
