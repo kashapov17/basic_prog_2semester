@@ -20,7 +20,8 @@ class LIST
 
     void printList(
             const Node *first,
-            std::ostream &ost
+            std::ostream &ost,
+            char mode='f'
             );
 
     Node *insertNode(
